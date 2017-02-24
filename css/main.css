@@ -1,0 +1,75 @@
+header{
+  height: 277px;
+  background: #e7e7e7; /* For browsers that do not support gradients */
+  background: linear-gradient(down, #C6C6C6, #e7e7e7);
+  background: -webkit-linear-gradient(down, #C6C6C6, #e7e7e7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(down, #C6C6C6, #e7e7e7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(down, #C6C6C6, #e7e7e7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(down, #C6C6C6, #e7e7e7); /* Standard syntax */
+}
+
+header h1{
+  color: #ff2d55;
+}
+
+
+/* content */
+main{
+
+
+}
+
+.content{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.calltoaction-top img{
+  top: 145px;
+  position: absolute;;
+  z-index: 100;
+  margin-bottom: 25px;
+}
+
+.btn-Download{
+  color: white;
+  background-color: #ff2d55;
+  width: 180px;
+  height: 60px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18pt;
+  margin: 20px 0 40px 0;
+}
+
+
+
+.video{
+  /*margin-top: 200px;*/
+  height: 260px;
+  width: 100%;
+  background-color: #ff2d55;
+
+}
+.video h2{
+  color: white;
+}
+
+footer{
+  background-color: #e7e7e7;
+  background-image: url(../img/separator.png);
+  background-repeat: repeat-x;
+
+}
+.footer{
+  margin: 40px 0 40px 0;
+}
+
+/* basics */
+
+h4{
+  font-size: 12pt;
+  color:#a4a4a4;
+}
