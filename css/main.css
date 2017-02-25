@@ -1,17 +1,33 @@
+h1{font-size: 20pt;}
 header{
-  height: 277px;
-  background: #e7e7e7; /* For browsers that do not support gradients */
-  background: linear-gradient(down, #C6C6C6, #e7e7e7);
-  background: -webkit-linear-gradient(down, #C6C6C6, #e7e7e7); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(down, #C6C6C6, #e7e7e7); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(down, #C6C6C6, #e7e7e7); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(down, #C6C6C6, #e7e7e7); /* Standard syntax */
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e7e7;
 }
 
 header h1{
   color: #ff2d55;
+
 }
 
+.title{
+  width: 50%;
+  margin-top: 20px;
+}
+
+.logo-Blinder{
+  padding: 0 5px 0 40px;
+  margin: 0;
+  text-align: right;
+}
+
+.text-title-subtitle{
+  margin: 0;
+  padding: 0;
+  /*background-color: white;*/
+}
 
 /* content */
 main{
@@ -25,26 +41,47 @@ main{
   align-items: center;
 }
 
+
+.calltoaction-top{
+  height: 460px;
+  background-image: url(../img/gradient.png);
+  background-repeat:repeat-x;
+  /*background: #e7e7e7;
+  background: linear-gradient(down, #C6C6C6, #e7e7e7);
+  background: -webkit-linear-gradient(down, #C6C6C6, #e7e7e7);
+  background: -o-linear-gradient(down, #C6C6C6, #e7e7e7);
+  background: -moz-linear-gradient(down, #C6C6C6, #e7e7e7);
+  background: linear-gradient(down, #C6C6C6, #e7e7e7);*/
+}
 .calltoaction-top img{
-  top: 145px;
-  position: absolute;;
-  z-index: 100;
-  margin-bottom: 25px;
+  /*top: 145px;*/
+  /*margin-bottom: 10px;*/
+  width: 150px;
+  height: 300px;
 }
 
-.btn-Download{
+.text-download{
+  margin: 10px 0;
+
+}
+
+a.btn-Download{
   color: white;
   background-color: #ff2d55;
-  width: 180px;
-  height: 60px;
+  /*width: 180px;
+  height: 60px;*/
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  font-size: 18pt;
-  margin: 20px 0 40px 0;
+  font-size: 10pt;
+  margin: 20px 0;
+  padding: 10px 30px;
 }
-
-
+a.btn-Download:hover{
+  background-color: white;
+  color: #ff2d55;
+  border: #ff2d55 solid 1.5px;
+}
 
 .video{
   /*margin-top: 200px;*/
@@ -58,14 +95,37 @@ main{
 }
 
 footer{
-  background-color: #e7e7e7;
+  background-color: #4A4A4A;
   background-image: url(../img/separator.png);
   background-repeat: repeat-x;
+  margin-top: 40px;
 
 }
 .footer{
   margin: 40px 0 40px 0;
 }
+.footer ul{
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+a{
+  color: #d7d7d7;
+}
+a:hover{
+  color: #d4d4d4;
+  text-decoration: none;
+}
+
+.footer bold{
+  margin: 0 10px;
+  color: white;
+}
+
+
 
 /* basics */
 
